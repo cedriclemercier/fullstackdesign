@@ -14,6 +14,7 @@ const IndexPage = () => {
       <p>
         Need a developer? <Link to="/contact">Contact me here!</Link>
       </p>
+      <p>Have a idea? Speak to us today:  <a href="tel:0390057154">(03) 9005 7154</a></p>
     </Layout>
   )
 }
