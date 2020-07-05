@@ -1,16 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Head from "../components/head"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <Head title="Complete Website Designs" />
-      <h1>Hello</h1>
-      <h2>I am Cedric</h2>
+      <Head title="About Full Stack Design" />
 
+      <h1>About Me</h1>
+      <p>I am a full stack developer</p>
       <p>
         Need a developer? <Link to="/contact">Contact me here!</Link>
       </p>
@@ -18,4 +18,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
